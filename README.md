@@ -6,6 +6,11 @@ A replica of the renowned Google search page, crafted using the Google Custom Se
 
 This project aims to mimic the sleek and intuitive interface of the Google search engine, leveraging the powerful capabilities of the Google Custom Search API. Users can experience familiar search functionalities while enjoying a seamless browsing experience.
 
+<p align="center">
+  <img src="https://ibb.co/BG5dw7z" alt="Google Search Page Clone">
+  <img src="https://ibb.co/DrKmKvX" alt="Google Search Page Clone">
+</p>
+
 ## Features
 
 - **Custom Search Experience:** Utilize the robust features of the Google Custom Search API to deliver accurate and relevant search results.
