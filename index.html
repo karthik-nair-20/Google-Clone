@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Custom Google Search</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .main {
+        padding: 50px 200px;
+      }
+      .gsc-input {
+        padding: 5px !important;
+      }
+      .gsc-search-button {
+        padding: 10px 8px;
+        font-size: 14px;
+        border-radius: 100px;
+        width: 50px;
+        height: 40px;
+        border: none !important;
+        cursor: pointer;
+        background-color: #0466c8 !important;
+      }
+      .gsc-search-button:hover {
+        background-color: #0353a4 !important;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="main">
+      <img
+        class="logo-img"
+        src="google.png"
+        alt="logo"
+        style="display: block; margin: 0 auto 30px auto; width: 300px"
+      />
+      <script
+        async
+        src="https://cse.google.com/cse.js?cx=13cc85da5af7f454b"
+      ></script>
+      <div class="gcse-searchbox-only" enableAutoComplete="true">
+        <input type="text" class="gsc-input" />
+        <button type="submit" class="gsc-search-button">Search</button>
+      </div>
+      <div class="btn-wrapper">
+        <button class="btn" onclick="inProgress()">Google Search</button>
+        <button class="btn" onclick="inProgress()">I'm Feeling Lucky</button>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
